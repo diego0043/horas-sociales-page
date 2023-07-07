@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    .icon-brand{
+        width: 35px;
+        height: 35px;
+    }
+
+    
+}
+
+@media screen and (min-width: 768px) {
+    .icon-brand{
+        width: 45px;
+        height: 45px;
+    }
+
+    .title-brand{
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: #FF4F5B;
+    }
+
+    .item-nav{
+        font-weight: 600;
+        color: black;
+    }
+
+    .item-nav:hover{
+        color: #FF4F5B;
+    }
+
+    .nav-item{
+        width: 90px;
+    }
+}

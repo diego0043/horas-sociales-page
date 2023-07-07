@@ -1,5 +1,7 @@
+import { HomeContainer } from "../components/Home/HomeContainer"
+
 export const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <HomeContainer />
   )
 }
