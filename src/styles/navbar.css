@@ -9,14 +9,17 @@
 
 @media screen and (min-width: 768px) {
     .icon-brand{
-        width: 45px;
-        height: 45px;
+        margin-top: -10px;
+        margin-left: 40px;
+        width: 40px;
+        height: 40px;
     }
 
     .title-brand{
         font-size: 1.7rem;
         font-weight: 600;
         color: #FF4F5B;
+        display: inline-block;
     }
 
     .item-nav{
@@ -24,11 +27,34 @@
         color: black;
     }
 
-    .item-nav:hover{
-        color: #FF4F5B;
+    .nav-item{
+        text-align: center;
+        width: 110px;
+        transition: all 0.3s ease-in-out;
+        margin-right: 10px;
+
     }
 
-    .nav-item{
-        width: 90px;
+    .nav-item:hover{
+        background-color: #FF4F5B;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
     }
+
+    .nav-item:hover .item-nav{
+        color: white;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-item:hover .icon-item-nav{
+        color: white;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .icon-item-nav{
+        margin-right: 6px;
+        margin-top: -2px;
+    }
+
+
 }
