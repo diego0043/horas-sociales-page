@@ -1,7 +1,24 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
+
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 /* eslint-disable react/prop-types */
-export const CardGame = ({ title, description, games, image }) => {
+export const CardGame = ({ id, title, description, games, image }) => {
+  const [info, setInfo] = useState([]);
+  const navigate = useNavigate();
+
+
+  const handleData = () => {
+    const objectActual = [{id,title,description,games,image}]
+    setInfo(objectActual);
+    localStorage.setItem("objectActual", JSON.stringify(objectActual));
+    navigate(`/juegos/unidad_${id}`);
+    /* Nos moveremos con react router a la unidad seleccionada */
+    
+  };
+
   return (
     <>
       <div className="container-card shadow-sm">
@@ -15,11 +32,7 @@ export const CardGame = ({ title, description, games, image }) => {
             </div>
           </div>
           <div className="col-5 container-img">
-            <button
-              className="btn-card"
-              data-bs-target="#exampleModalToggle"
-              data-bs-toggle="modal"
-            >
+            <button onClick={handleData} className="btn-card" >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -34,22 +47,6 @@ export const CardGame = ({ title, description, games, image }) => {
               <span className="ms-2">juegos</span>
             </button>
             <img src={image} className="img-fluid img-card" />
-          </div>
-        </div>
-      </div>
-
-      {/*  Modal */}
-      <div
-        className="modal fade"
-        id="exampleModalToggle"
-        aria-hidden="true"
-        aria-labelledby="exampleModalToggleLabel"
-      >
-        <div className="modal-dialog modal-lg modal-dialog-centered">
-          <div className="modal-content">
-            <div className="modal-body">
-              Show a second modal and hide this one with the button below.
-            </div>
           </div>
         </div>
       </div>

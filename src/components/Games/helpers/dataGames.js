@@ -9,14 +9,45 @@ export const dataGames = [
     id: 1,
     title: "INVESTIGAMOS NOTICIAS",
     description: "Explora el mundo a través de las noticias: ¡Descubre, aprende y diviértete investigando!",
-    games: ["https://github.com/diseno2022/seus.git", "https://seusapp.org/"],
+    games: [
+      {
+        id_game: 1,
+        title: "El diálogo: lenguaje estándar.",
+        description: "Descubre las noticias más importantes de la semana",
+        image: img1,
+        link: "https://wordwall.net/es/resource/56981083",
+      },
+      {
+        id_game: 2,
+        title: "El restaurante: diálogo informal.",
+        description: "Descubre las noticias más importantes de la semana",
+        image: img1,
+        link: "https://wordwall.net/es/resource/56981083",
+      }
+
+    ],
     image: img1,
   },
   {
     id: 2,
     title: "LEEMOS LAS NARRACIONES ",
     description: "Sumérgete en narraciones fascinantes: ¡Descubre mundos llenos de aventuras a través de la lectura!",
-    games: ["https://github.com/diseno2022/seus.git", "https://seusapp.org/"],
+    games: [
+      {
+        id_game: 1,
+        title: "El diálogo: lenguaje estándar2.",
+        description: "Descubre las noticias más importantes de la semana",
+        image: img1,
+        link: "https://wordwall.net/es/resource/56981083",
+      },
+      {
+        id_game: 2,
+        title: "El restaurante: diálogo informal2.",
+        description: "Descubre las noticias más importantes de la semana",
+        image: img1,
+        link: "https://wordwall.net/es/resource/56981083",
+      }
+    ],
     image: img2,
   },
   {
