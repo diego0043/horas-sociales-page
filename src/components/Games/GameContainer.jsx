@@ -5,7 +5,7 @@ export const GameContainer = () => {
   return (
     <>
       <div className="row container-fluid">
-        <div className="col-12 col-md-6 col-lg-6 col-xl-6 container">
+        <div className="col-12 col-md-5 col-lg-5 col-xl-5 container">
           <div className="container-animation-game">
             <p className="text-center text-secondary">
               Descubre el poder de aprender mientras te diviertes. Nuestros
@@ -15,7 +15,7 @@ export const GameContainer = () => {
             <AnimationGame />
           </div>
         </div>
-        <div className="col-12 col-md-6 col-lg-6 col-xl-6 container">
+        <div className="col-12 col-md-7  col-lg-7   col-xl-7  container">
           <div className="container-text-game">
             <GamesList />
           </div>
