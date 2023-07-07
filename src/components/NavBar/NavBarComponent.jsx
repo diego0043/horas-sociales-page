@@ -6,10 +6,10 @@ export const NavBarComponent = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-white shadow-sm">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img className="icon-brand" src={img} alt="" />
-            <span className="ms-2 title-brand">Cuarto Grado</span>
-          </a>
+            <span className="ms-2 title-brand text-danger">CUARTO GRADO</span>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"

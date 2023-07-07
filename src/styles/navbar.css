@@ -17,8 +17,7 @@
 
     .title-brand{
         font-size: 1.7rem;
-        font-weight: 600;
-        color: #FF4F5B;
+        font-weight: bold;
         display: inline-block;
     }
 
@@ -56,5 +55,9 @@
         margin-top: -2px;
     }
 
+    .navbar-brand:hover img{
+        transform: rotate(360deg);
+        transition: all 0.3s ease-in-out;
+    }
 
 }
