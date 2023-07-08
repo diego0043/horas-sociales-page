@@ -92,8 +92,6 @@
     font-weight: 400;
     margin-top: 10px;
     margin-left: 10px;
-    font-family: 'Caprasimo', cursive !important;
-
   }
 
   .p-card {
@@ -114,9 +112,10 @@
   .btn-card {
     display: none;
     position: absolute;
-    bottom: 25%;
-    width: 120px;
-    height: 60px;
+    bottom: 30%;
+    right: -10px;
+    width: 50px;
+    height: 50px;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     background-color: transparent;
@@ -126,10 +125,10 @@
     font-weight: bold;
   }
 
-  .container-card:hover .container-img .img-card {
+ /*  .container-card:hover .container-img .img-card {
     opacity: 0.5;
     transition: all 0.3s ease-in-out;
-  }
+  } */
 
   .container-card:hover .container-img .btn-card {
     display: block;
@@ -139,14 +138,12 @@
     cursor: pointer;
     transition: all 0.5s ease-in-out;
     z-index: 200;
-    border: 1px solid gray;
   }
 
   .container-card:hover .container-img .btn-card:hover {
-    background-color: rgb(158, 157, 157, 0.8);
+    background-color: #D1D1FF;
     color: white;
-    box-shadow: 0px 0px 6px 0px rgba(65, 64, 64, 0.6);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 
   .modal-body {
@@ -167,7 +164,7 @@
 
   .title-game-list {
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: 500;
     margin-top: 40px;
     text-align: left;
     width: 100%;
@@ -191,4 +188,71 @@
     height: 100%;
     object-fit: cover;
   }
+
+  .container-cards-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: 30vh;
+  }
+
+  .container-card-list{
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .img-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+  .btn-goGame{
+    display: block;
+    margin-top: 10%;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    color: rgb(160, 157, 157);
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #D7E0FF;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .title-goGame{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .description-goGame{
+    display: block;
+    color: gray;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .btn-goGame:hover{
+    background-color: #D7E0FF;
+    color: #3C3744;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .fix-navbar{
+    margin-top: 70px;
+  }
+  
 }

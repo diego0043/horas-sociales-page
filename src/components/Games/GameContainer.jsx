@@ -4,7 +4,7 @@ import { GamesList } from "./GamesList";
 export const GameContainer = () => {
   return (
     <>
-      <div className="row container-fluid">
+      <div className="row container-fluid fix-navbar">
         <div className="col-12 col-md-5 col-lg-5 col-xl-5 container">
           <div className="container-animation-game">
             <p className="text-center text-secondary">

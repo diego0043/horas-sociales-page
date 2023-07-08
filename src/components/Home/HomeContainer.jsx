@@ -6,13 +6,19 @@ export const HomeContainer = () => {
     <>
       <div className="row container-fluid">
         <div className="col-12 col-md-6 col-lg-6 col-xl-6 container">
-          <div className="container-text">
+          <div className="d-none d-md-block d-lg-block d-xl-block container-text">
             <MessageHome />
+          </div>
+          <div className="d-block d-md-none d-lg-none d-xl-none container-animation">
+            <AnimationHome />
           </div>
         </div>
         <div className="col-12 col-md-6 col-lg-6 col-xl-6 container">
-          <div className="container-animation">
+          <div className="d-none d-md-block d-lg-block d-xl-block container-animation">
             <AnimationHome />
+          </div>
+          <div className="d-block d-md-none d-lg-none d-xl-none container-text">
+            <MessageHome />
           </div>
         </div>
       </div>

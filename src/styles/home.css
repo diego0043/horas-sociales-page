@@ -1,14 +1,54 @@
 @media screen and (max-width: 768px) {
+    .container-animation{
+        display: block;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .container-text{
+        display: block;
+        width: 95%;
+        display: block;
+        margin-left: 20px;
+        margin-right: auto;
+        margin-top: 0%;
+    }
+
+    .title-home{
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: left;
+        margin-bottom: 1rem;
+        font-family: 'Caprasimo', cursive !important;
+    }
+
+    .subtitle-home{
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-align: left;
+        margin-bottom: 2rem;
+        color: gray;
+    }
+
+    .btn-home{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .container-animation{
-        width: 80%;
+        width: 70%;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 11%;
+        margin-top: 15%;
     }
 
     .container-text{
@@ -16,7 +56,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 11%;
+        margin-top: 25%;
     }
 
     .title-home{
@@ -35,6 +75,8 @@
         color: gray;
     }
 
-
+    .fix-navbar{
+        margin-top: 270px;
+      } 
  
 }

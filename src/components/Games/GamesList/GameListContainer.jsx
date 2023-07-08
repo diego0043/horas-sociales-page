@@ -1,12 +1,13 @@
+import { GameListCard } from "./GameListCard";
 import { GameListTitles } from "./GameListTitles";
 
 export const GameListContainer = () => {
   const data = JSON.parse(localStorage.getItem("objectActual"));
-  const [{ title, description, id, image /* , games */ }] = data;
+  const [{ title, description, id, image, games }] = data;
 
   return (
     <>
-      <div className="container">
+      <div className="container fix-navbar">
         <div className="row">
           <GameListTitles
             title={title}
@@ -15,8 +16,10 @@ export const GameListContainer = () => {
             image={image}
           />
         </div>
-        <div className="row">
-            
+        <div className="row container-cards-list">
+          {games.map((game) => {
+            return <GameListCard key={game.title} {...game} />;
+          })}
         </div>
       </div>
     </>

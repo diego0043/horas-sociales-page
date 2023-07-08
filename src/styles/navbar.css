@@ -1,13 +1,135 @@
 @media screen and (max-width: 768px) {
     .icon-brand{
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
     }
 
+    .title-brand{
+        font-size: 1.2rem;
+        font-weight: bold;
+        display: inline-block;
+        font-family: 'Caprasimo', cursive !important;
+    }
+
+    .navbar-toggler{
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+      }
     
+
+    #checkbox2 {
+        display: none;
+      }
+      
+      .toggle2 {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        transition-duration: .5s;
+      }
+      
+      .bars {
+        width: 100%;
+        height: 6px;
+        background-color: #FF4F5B;
+        border-radius: 6px;
+      }
+      
+      #bar5 {
+        transition-duration: .8s;
+      }
+      
+      #bar4,#bar6 {
+        width: 80%;
+      }
+      
+      #checkbox2:checked + .toggle2 .bars {
+        position: absolute;
+        transition-duration: .5s;
+      }
+      
+      #checkbox2:checked + .toggle2 #bar5 {
+        transform: scaleX(0);
+        transition-duration: .5s;
+      }
+      
+      #checkbox2:checked + .toggle2 #bar4 {
+        width: 100%;
+        transform: rotate(45deg);
+        transition-duration: .5s;
+      }
+      
+      #checkbox2:checked + .toggle2 #bar6 {
+        width: 100%;
+        transform: rotate(-45deg);
+        transition-duration: .5s;
+      }
+      
+      #checkbox2:checked + .toggle2 {
+        transition-duration: .5s;
+        transform: rotate(180deg);
+      }
+
+      .icon-item-nav{
+        margin-left: 20px;
+        margin-right: 8px;
+        margin-top: -5px;
+    }
+
+    .container-nav-items{
+        width: 90vw;
+    }   
+
+
+    .nav-item{
+        text-align: left;
+        width: 100%;
+        margin-top: 10px;
+        height: 40px;
+    }
+
+    .nav-item:hover{
+        background-color: #FF4F5B;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+        color: white;
+    }
+
+    .nav-item:hover .item-nav{
+        color: white;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-item:hover .icon-item-nav{
+        color: white;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .item-nav{
+        font-weight: 600;
+        color: black;
+    }
 }
 
 @media screen and (min-width: 768px) {
+    .navbar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-bottom: 30px;
+        z-index: 1000;
+    }
+
     .icon-brand{
         margin-top: -10px;
         margin-left: 40px;
@@ -20,7 +142,6 @@
         font-weight: bold;
         display: inline-block;
         font-family: 'Caprasimo', cursive !important;
-
     }
 
     .item-nav{
