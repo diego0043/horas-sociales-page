@@ -77,7 +77,7 @@ export const dataGames = [
       "Sumérgete en narraciones fascinantes: ¡Descubre mundos llenos de aventuras a través de la lectura!",
     games: [
       {
-        id_game: 12,
+        id_game: 20,
         title: "El plural de las palabras terminadas en -z.",
         description: "Descubre las noticias más importantes de la semana",
         image: imgG3,
@@ -93,14 +93,14 @@ export const dataGames = [
       "Descubre la magia de los acrósticos: ¡Jugando con las letras mientras investigamos!",
     games: [
       {
-        id_game: 14,
+        id_game: 21,
         title: "El uso del punto.",
         description: "Descubre las noticias más importantes de la semana",
         image: imgG4,
         link: "https://wordwall.net/es/resource/56980484",
       },
       {
-        id_game: 15,
+        id_game: 22,
         title: "Verbos en la narración.",
         description: "Descubre las noticias más importantes de la semana",
         image: imgG5,
@@ -116,14 +116,14 @@ export const dataGames = [
       "Adéntrate en el fascinante mundo de los mitos: ¡Descubre leyendas y seres míticos mientras exploramos juntos!",
     games: [
       {
-        id_game: 16,
+        id_game: 23,
         title: "Preguntas que responde la noticia.",
         description: "Descubre las noticias más importantes de la semana",
         image: imgG7,
         link: "https://wordwall.net/es/resource/38271401/la-noticia",
       },
       {
-        id_game: 17,
+        id_game: 24,
         title: "Temas de la noticia.",
         description: "Descubre las noticias más importantes de la semana",
         image: imgG6,
