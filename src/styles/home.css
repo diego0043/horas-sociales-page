@@ -1,83 +1,145 @@
 @media screen and (max-width: 768px) {
-    .container-animation{
-        display: block;
-        width: 100%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 70px;
-    }
+  .container-animation {
+    display: block;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+  }
 
-    .container-text{
-        display: block;
-        width: 95%;
-        display: block;
-        margin-left: 20px;
-        margin-right: auto;
-        margin-top: 10%;
-    }
+  .container-text {
+    display: block;
+    width: 95%;
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 10%;
+  }
 
-    .title-home{
-        font-size: 1.5rem;
-        font-weight: 400;
-        text-align: left;
-        margin-bottom: 1rem;
-        font-family: 'Caprasimo', cursive !important;
-    }
+  .title-home {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 1rem;
+    font-family: "Caprasimo", cursive !important;
+  }
 
-    .subtitle-home{
-        font-size: 1.3rem;
-        font-weight: 400;
-        text-align: left;
-        margin-bottom: 2rem;
-        color: gray;
-    }
+  .subtitle-home {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 2rem;
+    color: gray;
+  }
 
-    .btn-home{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
+  .btn-home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .container-animation{
-        width: 70%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 15%;
-    }
+  .container-animation {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+  }
 
-    .container-text{
-        width: 80%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 25%;
-    }
+  .container-text {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+  }
 
-    .title-home{
-        font-size: 2.5rem;
-        font-weight: 400;
-        text-align: left;
-        margin-bottom: 2rem;
-        font-family: 'Caprasimo', cursive !important;
-    }
+  .title-home {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-family: "Caprasimo", cursive !important;
+  }
 
-    .subtitle-home{
-        font-size: 1.5rem;
-        font-weight: 400;
-        text-align: left;
-        margin-bottom: 2rem;
-        color: gray;
-    }
+  .subtitle-home {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 2rem;
+    color: gray;
+  }
 
-    .fix-navbar{
-        margin-top: 270px;
-      } 
- 
+  .fix-navbar {
+    margin-top: 270px;
+  }
+
+  .games-home{
+    display: flex;
+    margin-left: 10px;
+    height: 100vh;
+  }
+
+  .images-carousel{
+    height: 80vh;
+    margin-top: 8%;
+  }
+
+  .text-game-home{
+    display: block;
+    margin-top: 20%;
+  }
+
+  .container-text-game-home{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+  }
+
+  .subtitle-home-game{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-top: -20px;
+    color: gray;
+  }
+
+  .title-carousel{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 2rem;
+    color: #FF4F5B;
+    text-align: center;
+    font-family: "Caprasimo", cursive !important;
+  }
+
+  .subtitle-carousel{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 2rem;
+    color: #FF4F5B;
+    text-align: center;
+  }
+
+  .text-carousel-dif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: none;
+    backdrop-filter: blur(2px);
+    height: auto;
+    width: 80%;
+  }
+
 }

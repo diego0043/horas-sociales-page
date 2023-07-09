@@ -78,7 +78,7 @@ export const dataGames = [
   },
   {
     id: 2,
-    title: "LEEMOS LAS NARRACIONES ",
+    title: "LEEMOS LAS NARRACIONES",
     description:
       "Sumérgete en narraciones fascinantes: ¡Descubre mundos llenos de aventuras a través de la lectura!",
     games: [
