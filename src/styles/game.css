@@ -90,6 +90,102 @@
     border-radius: 10%;
     font-weight: bold;
   }
+
+  .title-game-list {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    color: rgb(228, 92, 92);
+    font-family: 'Caprasimo', cursive !important;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+  }
+
+  .subtitle-game-list {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+    width: 100%;  
+    margin-left: 10px;
+  }
+
+  .img-game-list{
+    display: block;
+    width: 90vw;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .container-cards-list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 30vh;
+  }
+
+  .container-card-list{
+    width: 96%;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .img-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+  .btn-goGame{
+    display: block;
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D7E0FF;
+    color: #3C3744;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #D7E0FF;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .title-goGame{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .description-goGame{
+    display: block;
+    color: gray;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .btn-goGame:hover{
+    background-color: #D7E0FF;
+    color: #3C3744;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .fix-navbar{
+    margin-top: 70px;
+  }
 }
 
 @media screen and (min-width: 768px) {
