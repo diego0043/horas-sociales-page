@@ -380,7 +380,8 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
-    height: 30vh;
+    height: 100%;
+    margin-bottom: 20px ;
   }
 
   .container-card-list{
@@ -412,6 +413,7 @@
     cursor: pointer;
     border: 1px solid #D7E0FF;
     transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
   }
 
   .title-goGame{
