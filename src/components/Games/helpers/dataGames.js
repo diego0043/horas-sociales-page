@@ -1,7 +1,7 @@
 import img1 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (1).svg";
 import img2 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (2).svg";
 import img3 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (3).svg";
-import img4 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (5).svg";
+import img4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (2).png";
 
 import imgU1_1 from "../../../assets/SVG2/drawkit-grape-pack-illustration-1.svg";
 import imgU1_2 from "../../../assets/SVG2/drawkit-grape-pack-illustration-8.svg";
@@ -16,6 +16,14 @@ import imgU2_2 from "../../../assets/SVG3/wfh_8.svg";
 import imgU2_3 from "../../../assets/SVG3/wfh_10.svg";
 import imgU2_4 from "../../../assets/SVG3/wfh_5.svg";
 import imgU2_5 from "../../../assets/SVG3/wfh_7.svg";
+import imgU2_6 from "../../../assets/SVG3/wfh_9.svg";
+
+import imgU3_1 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (11).png";
+import imgU3_2 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (3).png";
+import imgU3_3 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (9).png";
+import imgU3_4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (6).png";
+import imgU3_5 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (10).png";
+import imgU3_6 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (8).png";
 
 export const dataGames = [
   {
@@ -119,10 +127,10 @@ export const dataGames = [
       },
       {
         id_game: 25,
-        title: "Párrafos en Acción: Juego de Redacción 2",
-        description: "¡Encuentra la palabra perdida! Juegos de párrafos para armar.",
-        image: imgU2_5,
-        link: "https://wordwall.net/resource/37659014/flor-ar-parrafo",
+        title: "Los adverbios de duda, afirmación y negación",
+        description: "¿Podras identificar los adverbios?",
+        image: imgU2_6,
+        link: "https://wordwall.net/resource/58384418",
       },
     ],
     image: img2,
@@ -157,18 +165,46 @@ export const dataGames = [
       "Adéntrate en el fascinante mundo de los mitos: ¡Descubre leyendas y seres míticos mientras exploramos juntos!",
     games: [
       {
-        id_game: 23,
-        title: "Preguntas que responde la noticia.",
-        description: "Descubre las noticias más importantes de la semana",
-        image: imgU1_7,
-        link: "https://wordwall.net/es/resource/38271401/la-noticia",
+        id_game: 30,
+        title: "La narración de aventuras maravillosas.",
+        description: "Descubre mundos sin límites a través de la lectura",
+        image: imgU3_1,
+        link: "https://wordwall.net/es/resource/58383946",
       },
       {
-        id_game: 24,
-        title: "Temas de la noticia.",
-        description: "Descubre las noticias más importantes de la semana",
-        image: imgU1_7,
-        link: "https://wordwall.net/es/resource/34743528/temas-de-la-noticia",
+        id_game: 31,
+        title: "Estructura de la narración de aventuras",
+        description: "Descubre los hilos que tejen una trama cautivadora",
+        image: imgU3_2,
+        link: "https://wordwall.net/resource/58384141",
+      },
+      {
+        id_game: 32,
+        title: "Los pronombres personales.",
+        description: "Palabras mágicas que nos conectan con otros.",
+        image: imgU3_3,
+        link: "https://wordwall.net/resource/58384141",
+      },
+      {
+        id_game: 33,
+        title: "Párrafos en Acción: Juego de Redacción 1",
+        description: "¡Encuentra la palabra perdida! Juegos de párrafos para armar.",
+        image: imgU3_4,
+        link: "https://wordwall.net/resource/58384380",
+      },
+      {
+        id_game: 34,
+        title: "Párrafos en Acción: Juego de Redacción 2",
+        description: "¡Encuentra la palabra perdida! Juegos de párrafos para armar.",
+        image: imgU3_5,
+        link: "https://wordwall.net/resource/37659014/flor-ar-parrafo",
+      },
+      {
+        id_game: 35,
+        title: "Los adverbios de duda, afirmación y negación",
+        description: "¿Podras identificar los adverbios?",
+        image: imgU3_6,
+        link: "https://wordwall.net/resource/58384418",
       },
     ],
     image: img4,
