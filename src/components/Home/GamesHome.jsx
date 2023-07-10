@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import img1 from "../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (1).svg";
 import img2 from "../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (2).svg";
 import img3 from "../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (3).svg";
@@ -14,27 +15,35 @@ export const GamesHome = () => {
           >
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="3000">
-                <img src={img1} className="d-block w-100" alt="..." />
+                <img src={img1} className="d-block img-carousel" alt="..." />
                 <div className="carousel-caption d-none d-md-block text-carousel-dif">
-                  <h5 className="title-carousel">INVESTIGAMOS NOTICIAS</h5>
+                  <h5 className="title-carousel">
+                    UNIDAD 1 INVESTIGAMOS NOTICIAS
+                  </h5>
                 </div>
               </div>
               <div className="carousel-item" data-bs-interval="3000">
-                <img src={img2} className="d-block w-100" alt="..." />
+                <img src={img2} className="d-block img-carousel" alt="..." />
                 <div className="carousel-caption d-none d-md-block text-carousel-dif">
-                  <h5 className="title-carousel">LEEMOS LAS NARRACIONES</h5>
+                  <h5 className="title-carousel">
+                    UNIDAD 2 LEEMOS LAS NARRACIONES
+                  </h5>
                 </div>
               </div>
               <div className="carousel-item" data-bs-interval="3000">
-                <img src={img3} className="d-block w-100" alt="..." />
+                <img src={img3} className="d-block img-carousel" alt="..." />
                 <div className="carousel-caption d-none d-md-block text-carousel-dif">
-                  <h5 className="title-carousel">INVESTIGAMOS ACRÓSTICOS</h5>
+                  <h5 className="title-carousel">
+                    UNIDAD 3 INVESTIGAMOS ACRÓSTICOS
+                  </h5>
                 </div>
               </div>
               <div className="carousel-item" data-bs-interval="3000">
-                <img src={img4} className="d-block w-100" alt="..." />
+                <img src={img4} className="d-block img-carousel" alt="..." />
                 <div className="carousel-caption d-none d-md-block text-carousel-dif">
-                  <h5 className="title-carousel">CONOZCAMOS LOS MITOS</h5>
+                  <h5 className="title-carousel">
+                    UNIDAD 4 CONOZCAMOS LOS MITOS
+                  </h5>
                 </div>
               </div>
             </div>
@@ -43,15 +52,17 @@ export const GamesHome = () => {
         <div className="col-12 col-md-6 col-lg-6 col-xl-6 container-text-game-home">
           <div className="text-game-home">
             <div className="title-home">
-              Muchos juegos para aprender y divertirse como nunca antes.
+            <span className="text-blue-home">Muchos</span> juegos para aprender
+              y <span className="text-red-home">divertirse</span> como <span className="text-blue-home">nunca </span>
+              antes.
             </div>
             <h2 id="games-home-red" className="subtitle-home-game">
               Explora un mundo de aprendizaje digital diseñado para estudiantes
               de cuarto grado
             </h2>
-            <button className="btn btn-danger btn-lg btn-block btn-home">
+            <Link to="/juegos" className="btn btn-lg btn-block btn-home-game">
               Ir a juegos
-            </button>
+            </Link>
           </div>
         </div>
       </div>

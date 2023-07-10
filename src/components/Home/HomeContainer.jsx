@@ -1,5 +1,6 @@
 import { AnimationHome } from "./AnimationHome";
 import { GamesHome } from "./GamesHome";
+import { MaterialHome } from "./MaterialHome";
 import { MessageHome } from "./MessageHome";
 
 export const HomeContainer = () => {
@@ -25,6 +26,9 @@ export const HomeContainer = () => {
       </div>
       <div className="container-fluid">
         <GamesHome /> 
+      </div>
+      <div className="container-fluid">
+        <MaterialHome /> 
       </div>
     </>
   );

@@ -41,6 +41,116 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
+  .games-home {
+    display: block;
+    margin-left: 10px;
+    height: 100vh;
+  }
+
+  .images-carousel {
+    position: relative;
+    margin-top: 10%;
+  }
+
+  .text-game-home {
+    display: block;
+    margin-top: 30%;
+  }
+
+  .container-text-game-home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .subtitle-home-game {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+    color: gray;
+  }
+
+  .title-carousel {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 2rem;
+    color: #45414b;
+    text-align: center;
+    font-family: "Caprasimo", cursive !important;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100px;
+  }
+
+  .img-carousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    margin-top: 20px;
+  }
+
+  .btn-home-game{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D7E0FF;
+    color: #3C3744;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #D7E0FF;
+    margin-top: 60px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-home-game:hover{
+    background-color: #cad5fc;
+    color: #3C3744;
+    border: 1px solid #D7E0FF;
+  }
+
+  .text-red-home{
+    font-style: oblique;
+    color: #D7E0FF;
+  }
+
+  .animation-material {
+    margin-top: 1px;
+  }
+
+  .text-red{
+    font-style: oblique;
+    color: #E03268;
+  }
+
+  .btn-home-material{
+    display: block;
+    width: 33%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E03268;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #E03268;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-home-material:hover{
+    background-color: #d41e57;
+    color: white;
+    border: 1px solid #E03268;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -80,30 +190,31 @@
     margin-top: 270px;
   }
 
-  .games-home{
+  .games-home {
     display: flex;
     margin-left: 10px;
     height: 100vh;
   }
 
-  .images-carousel{
-    height: 80vh;
-    margin-top: 8%;
+  .images-carousel {
+    position: relative;
+    height: 70vh;
+    margin-top: 10%;
   }
 
-  .text-game-home{
+  .text-game-home {
     display: block;
-    margin-top: 20%;
+    margin-top: 30%;
   }
 
-  .container-text-game-home{
+  .container-text-game-home {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 45%;
   }
 
-  .subtitle-home-game{
+  .subtitle-home-game {
     font-size: 1.5rem;
     font-weight: 400;
     text-align: left;
@@ -112,34 +223,87 @@
     color: gray;
   }
 
-  .title-carousel{
+  .title-carousel {
+    position: absolute;
+    display: flex;
     font-size: 2.5rem;
     font-weight: 400;
     text-align: left;
     margin-bottom: 2rem;
-    color: #FF4F5B;
+    color: #45414b;
     text-align: center;
     font-family: "Caprasimo", cursive !important;
+    top: -70px;
+    left: -90px;
+    backdrop-filter: blur(10px);
+    width: 140%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
   }
 
-  .subtitle-carousel{
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-align: left;
-    margin-bottom: 2rem;
-    color: #FF4F5B;
-    text-align: center;
-  }
-
-  .text-carousel-dif{
+  .img-carousel {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: transparent;
-    border: none;
-    backdrop-filter: blur(2px);
-    height: auto;
     width: 80%;
+    height: 80%;
+    margin-top: 20px;
   }
 
+  .btn-home-game{
+    display: block;
+    width: 25%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D7E0FF;
+    color: #3C3744;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #D7E0FF;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-home-game:hover{
+    background-color: #cad5fc;
+    color: #3C3744;
+    border: 1px solid #D7E0FF;
+  }
+
+  .text-red-home{
+    font-style: oblique;
+    color: #D7E0FF;
+  }
+
+  .animation-material {
+    margin-top: 6%;
+  }
+
+  .text-red{
+    font-style: oblique;
+    color: #E03268;
+  }
+
+  .btn-home-material{
+    display: block;
+    width: 33%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E03268;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #E03268;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-home-material:hover{
+    background-color: #d41e57;
+    color: white;
+    border: 1px solid #E03268;
+  }
 }
