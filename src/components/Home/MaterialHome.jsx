@@ -6,13 +6,13 @@ export const MaterialHome = () => {
     <>
       <div className="container-fluid games-home fix-m-btn">
         <div className="col-12 col-md-6 col-lg-6 col-xl-6 container-text-game-home">
-          <div className="text-game-home fix-m-material">
-            <div className="title-home fix-title">
+          <div className="text-game-home">
+            <div className="title-home">
               ¿Buscas <span className="text-red">material</span> de apoyo para
               tus clases? ¡Estás en el <span className="text-red">lugar</span>{" "}
               correcto!
             </div>
-            <h2 className="subtitle-home-game fix-title">
+            <h2 className="subtitle-home-game">
               Explora un mundo de aprendizaje digital diseñado para estudiantes
               de cuarto grado
             </h2>
