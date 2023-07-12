@@ -14,14 +14,14 @@
     display: block;
     margin-left: 20px;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .title-home {
     font-size: 1.5rem;
     font-weight: 400;
     text-align: left;
-    margin-top: -5rem;
+    margin-top: -7rem;
     margin-bottom: 20px;
     font-family: "Caprasimo", cursive !important;
   }
@@ -35,12 +35,13 @@
   }
 
   .btn-home {
+    position: absolute;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     margin-top: 120px;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
   .games-home {
