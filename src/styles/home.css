@@ -5,7 +5,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;
+    margin-top: 130px;
   }
 
   .container-text {
@@ -21,7 +21,8 @@
     font-size: 1.5rem;
     font-weight: 400;
     text-align: left;
-    margin-bottom: 1rem;
+    margin-top: -5rem;
+    margin-bottom: 20px;
     font-family: "Caprasimo", cursive !important;
   }
 
@@ -44,24 +45,24 @@
 
   .games-home {
     display: block;
+    position: relative;
     height: 100vh;
   }
 
   .images-carousel {
     position: relative;
-    margin-top: 10%;
+    margin-top: 20%;
+    height: 200px;
   }
 
-  .text-game-home {
-    display: block;
-    margin-top: 30%;
-  }
+ 
 
   .container-text-game-home {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    margin-top: 200px;
   }
 
   .subtitle-home-game {
@@ -99,8 +100,8 @@
   }
 
   .btn-home-game{
+    position: absolute;
     display: block;
-    width: 100%;
     height: 50px;
     border-radius: 10px;
     border: none;
@@ -109,8 +110,12 @@
     font-weight: bold;
     cursor: pointer;
     border: 1px solid #D7E0FF;
-    margin-top: 120px;
     transition: all 0.3s ease-in-out;
+    left: 0;
+    margin-left: 10px;
+    width: 95%;
+    position: absolute;
+    bottom: 40px;
   }
 
   .btn-home-game:hover{
@@ -134,8 +139,9 @@
   }
 
   .btn-home-material{
+    position: absolute;
     display: block;
-    width: 100%;
+    width: 95%;
     height: 50px;
     border-radius: 10px;
     border: none;
@@ -145,7 +151,7 @@
     cursor: pointer;
     border: 1px solid #E03268;
     transition: all 0.3s ease-in-out;
-    margin-top: 120px;
+    bottom: 110px;
   }
 
   .btn-home-material:hover{
@@ -155,11 +161,25 @@
   }
 
   .title-home-game-mobile{
-    margin-top: -40px;
+    margin-top: 200px;
   }
 
   .fix-m-btn{
     margin-top: -120px;
+  }
+
+  .container-initial-home{
+    position: relative;
+    height: 100vh;
+  }
+
+  .btn-home{
+    display: block;
+    left: 0;
+    margin-left: 30px;
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
   }
 }
 

@@ -61,10 +61,10 @@ export const GamesHome = () => {
               Explora un mundo de aprendizaje digital diseñado para estudiantes
               de cuarto grado
             </h2>
-            <Link to="/juegos" className="btn btn-lg btn-block btn-home-game">
+          </div>
+          <Link to="/juegos" className="btn btn-lg btn-block btn-home-game">
               Ir a juegos
             </Link>
-          </div>
         </div>
       </div>
     </>

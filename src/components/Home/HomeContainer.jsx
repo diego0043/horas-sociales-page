@@ -6,7 +6,7 @@ import { MessageHome } from "./MessageHome";
 export const HomeContainer = () => {
   return (
     <>
-      <div className="row container-fluid">
+      <div className="row container-fluid container-initial-home">
         <div className="col-12 col-md-6 col-lg-6 col-xl-6 container">
           <div className="d-none d-md-block d-lg-block d-xl-block container-text">
             <MessageHome />
