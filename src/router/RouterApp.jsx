@@ -1,8 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import { HomePage } from "../pages/HomePage";
-import { GamePage } from "../pages/GamePage";
-import { GameListPage } from "../pages/GameListPage";
-import { ErrorPage } from "../pages/ErrorPage";
+import {
+  HomePage,
+  GamePage,
+  GameListPage,
+  ErrorPage,
+  MaterialPage,
+} from "../pages/index";
 
 export const RouterApp = () => {
   return (
@@ -10,6 +13,7 @@ export const RouterApp = () => {
       <Route path="/" element={<HomePage />} />
       <Route path="/juegos" element={<GamePage />} />
       <Route path="/juegos/:unidad" element={<GameListPage />} />
+      <Route path="/material" element={<MaterialPage />} />
       <Route path="*" element={<ErrorPage />} />
     </Routes>
   );

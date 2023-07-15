@@ -193,6 +193,10 @@
     height: 20px;
     margin-top: 20px;
   }
+
+  .fix-btn-material{
+    width: 150px;
+  }
 }
 
 @media screen and (min-width: 768px) {
