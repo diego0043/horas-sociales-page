@@ -6,6 +6,7 @@ import {
   ErrorPage,
   MaterialPage,
 } from "../pages/index";
+import { MaterialListPage } from "../pages/MaterialListPage";
 
 export const RouterApp = () => {
   return (
@@ -14,6 +15,7 @@ export const RouterApp = () => {
       <Route path="/juegos" element={<GamePage />} />
       <Route path="/juegos/:unidad" element={<GameListPage />} />
       <Route path="/material" element={<MaterialPage />} />
+      <Route path="/material/:unidad" element={<MaterialListPage />} />
       <Route path="*" element={<ErrorPage />} />
     </Routes>
   );

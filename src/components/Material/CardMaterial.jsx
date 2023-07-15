@@ -13,7 +13,7 @@ export const CardMaterial = ({ id, title, description, games, image }) => {
     const objectActual = [{ id, title, description, games, image }];
     setInfo(objectActual);
     localStorage.setItem("objectActual", JSON.stringify(objectActual));
-    navigate(`/juegos/unidad_${id}`);
+    navigate(`/material/unidad_${id}`);
     /* Nos moveremos con react router a la unidad seleccionada */
   };
 
