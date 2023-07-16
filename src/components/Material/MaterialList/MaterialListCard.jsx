@@ -52,7 +52,7 @@ export const MateriaListCard = ({ week, fileType, options, doc, name }) => {
           </div>
           <div className="col-3 container-icons">
             {options[0] && options[1] ? (
-              <a href={doc} className="icon-options">
+              <a href={doc} target="_blank" className="icon-options" rel="noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
