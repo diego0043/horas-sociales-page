@@ -11,28 +11,28 @@ export const dataMaterial = [
             {
                 id: "un1_we1",
                 week: ": semana 1",
-                fileType: "pdf",
+                fileType: "PDF",
                 options: [true,true],
                 doc: uni_semana1
             },
             {
                 id: "un2_we2",
                 week: ": semana 2",
-                fileType: "pdf",
+                fileType: "PDF",
                 options: [true,true],
                 doc: uni_semana2
             },
             {
                 id: "un3_we3",
                 week: ": semana 3",
-                fileType: "pdf",
+                fileType: "PDF",
                 options: [true,true],
                 doc: uni_semana3
             },
             {
                 id: "un4_we4",
                 week: ": semana 4",
-                fileType: "pdf",
+                fileType: "PDF",
                 options: [true,true],
                 doc: uni_semana4
             }
