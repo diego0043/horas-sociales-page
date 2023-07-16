@@ -114,14 +114,16 @@ export const dataGames = [
       {
         id_game: 23,
         title: "Párrafos en Acción: Juego de Redacción 1",
-        description: "¡Encuentra la palabra perdida! Juegos de párrafos para armar.",
+        description:
+          "¡Encuentra la palabra perdida! Juegos de párrafos para armar.",
         image: imgU2_4,
         link: "https://wordwall.net/resource/58384380",
       },
       {
         id_game: 24,
         title: "Párrafos en Acción: Juego de Redacción 2",
-        description: "¡Encuentra la palabra perdida! Juegos de párrafos para armar.",
+        description:
+          "¡Encuentra la palabra perdida! Juegos de párrafos para armar.",
         image: imgU2_5,
         link: "https://wordwall.net/resource/37659014/flor-ar-parrafo",
       },
@@ -188,14 +190,16 @@ export const dataGames = [
       {
         id_game: 33,
         title: "Párrafos en Acción: Juego de Redacción 1",
-        description: "¡Encuentra la palabra perdida! Juegos de párrafos para armar.",
+        description:
+          "¡Encuentra la palabra perdida! Juegos de párrafos para armar.",
         image: imgU3_4,
         link: "https://wordwall.net/resource/58384380",
       },
       {
         id_game: 34,
         title: "Párrafos en Acción: Juego de Redacción 2",
-        description: "¡Encuentra la palabra perdida! Juegos de párrafos para armar.",
+        description:
+          "¡Encuentra la palabra perdida! Juegos de párrafos para armar.",
         image: imgU3_5,
         link: "https://wordwall.net/resource/37659014/flor-ar-parrafo",
       },

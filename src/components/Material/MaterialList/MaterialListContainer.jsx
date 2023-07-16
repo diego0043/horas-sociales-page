@@ -11,8 +11,8 @@ export const MaterialListContainer = () => {
 
   const getDataUnitActual = (id) => {
     const dataUnitActual = dataMaterial.filter((unit) => unit.id === id);
-    const [{ docs }] = dataUnitActual;
-    const [{ name }] = dataUnitActual;
+    const [{ docs = [] } = {}] = dataUnitActual;
+    const [{ name = "" } = ""] = dataUnitActual;
     setTitleMaterial(name);
     setUnidad(docs);
   };

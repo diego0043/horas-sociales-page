@@ -291,10 +291,12 @@
   }
 
   .p-card {
+    display: block;
     font-size: 0.9rem;
     margin-top: 5px;
     margin-left: 10px;
     color: gray;
+    text-align: left;
   }
 
   .container-img {
