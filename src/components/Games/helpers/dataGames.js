@@ -22,8 +22,12 @@ import imgU3_1 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween 
 import imgU3_2 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (3).png";
 import imgU3_3 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (9).png";
 import imgU3_4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (6).png";
-import imgU3_5 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (10).png";
-import imgU3_6 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (8).png";
+
+import imgU4_1 from "../../../assets/SVG4/DrawKit Vector Illustration Mental Health & Psychology (6).svg";
+import imgU4_2 from "../../../assets/SVG4/DrawKit Vector Illustration Mental Health & Psychology (7).svg";
+import imgU4_3 from "../../../assets/SVG4/DrawKit Vector Illustration Mental Health & Psychology (8).svg";
+import imgU4_4 from "../../../assets/SVG4/DrawKit Vector Illustration Mental Health & Psychology (9).svg";
+import imgU4_5 from "../../../assets/SVG4/DrawKit Vector Illustration Mental Health & Psychology (10).svg";
 
 export const dataGames = [
   {
@@ -144,18 +148,43 @@ export const dataGames = [
       "Descubre la magia de los acrósticos: ¡Jugando con las letras mientras investigamos!",
     games: [
       {
-        id_game: 21,
-        title: "El uso del punto.",
-        description: "Descubre las noticias más importantes de la semana",
-        image: imgU1_4,
-        link: "https://wordwall.net/es/resource/56980484",
+        id_game: 26,
+        title: "Reglas de tildación",
+        description:
+          "Reglas de tildación para palabras agudas, graves y esdrújulas",
+        image: imgU4_1,
+        link: "https://wordwall.net/resource/58552126",
       },
       {
-        id_game: 22,
-        title: "Verbos en la narración.",
-        description: "Descubre las noticias más importantes de la semana",
-        image: imgU1_5,
-        link: "https://wordwall.net/es/resource/6438448/verbos-en-la-narraci%C3%B3n",
+        id_game: 27,
+        title: "Reglas de tildación 2",
+        description:
+          "Reglas de tildación para palabras agudas, graves y esdrújulas",
+        image: imgU4_2,
+        link: "https://wordwall.net/resource/51774604",
+      },
+      {
+        id_game: 28,
+        title: "Reglas de tildación 3",
+        description:
+          "Reglas de tildación para palabras agudas, graves y esdrújulas",
+        image: imgU4_3,
+        link: "https://wordwall.net/resource/12574668",
+      },
+      {
+        id_game: 29,
+        title: "Reglas de tildación 4",
+        description:
+          "Reglas de tildación para palabras agudas, graves y esdrújulas",
+        image: imgU4_4,
+        link: "https://wordwall.net/resource/4180475",
+      },
+      {
+        id_game: 30,
+        title: "Uso de la g",
+        description: "Uso de la g en palabras maravillosas",
+        image: imgU4_5,
+        link: "https://wordwall.net/resource/58552264",
       },
     ],
     image: img3,
@@ -167,48 +196,33 @@ export const dataGames = [
       "Adéntrate en el fascinante mundo de los mitos: ¡Descubre leyendas y seres míticos mientras exploramos juntos!",
     games: [
       {
-        id_game: 30,
-        title: "La narración de aventuras maravillosas.",
-        description: "Descubre mundos sin límites a través de la lectura",
-        image: imgU3_1,
-        link: "https://wordwall.net/es/resource/58383946",
-      },
-      {
         id_game: 31,
-        title: "Estructura de la narración de aventuras",
-        description: "Descubre los hilos que tejen una trama cautivadora",
-        image: imgU3_2,
-        link: "https://wordwall.net/resource/58384141",
+        title: "Las personas gramaticales como narradores",
+        description: "Las personas gramaticales en la narración de aventuras",
+        image: imgU3_1,
+        link: "https://wordwall.net/resource/58552728",
       },
       {
         id_game: 32,
-        title: "Los pronombres personales.",
-        description: "Palabras mágicas que nos conectan con otros.",
-        image: imgU3_3,
-        link: "https://wordwall.net/resource/58384141",
+        title: "Uso de b: la terminación -aba",
+        description: "¿Sabes como se usa la letra b correctamente?",
+        image: imgU3_2,
+        link: "https://wordwall.net/resource/58560568",
       },
       {
         id_game: 33,
-        title: "Párrafos en Acción: Juego de Redacción 1",
-        description:
-          "¡Encuentra la palabra perdida! Juegos de párrafos para armar.",
-        image: imgU3_4,
-        link: "https://wordwall.net/resource/58384380",
+        title: "Fuentes de información en la red ",
+        description: "La red: un mundo de información a tu alcance",
+        image: imgU3_3,
+        link: "https://wordwall.net/resource/58560663",
       },
       {
         id_game: 34,
-        title: "Párrafos en Acción: Juego de Redacción 2",
+        title: "Oraciones interrogativas y exclamativas",
         description:
-          "¡Encuentra la palabra perdida! Juegos de párrafos para armar.",
-        image: imgU3_5,
-        link: "https://wordwall.net/resource/37659014/flor-ar-parrafo",
-      },
-      {
-        id_game: 35,
-        title: "Los adverbios de duda, afirmación y negación",
-        description: "¿Podras identificar los adverbios?",
-        image: imgU3_6,
-        link: "https://wordwall.net/resource/58384418",
+          "¡Preguntas y exclamaciones para expresar emociones!",
+        image: imgU3_4,
+        link: "https://wordwall.net/resource/58569460",
       },
     ],
     image: img4,
