@@ -30,7 +30,7 @@ export const NavBarComponent = () => {
             className="collapse navbar-collapse navbar-nav me-auto mb-2 mb-lg-0"
             id="navbarSupportedContent"
           >
-            <ul className="d-none d-md-flex d-lg-flex d-xl-flex navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul className="d-none d-md-none d-lg-flex d-xl-flex navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link active" to="/">
                   <svg
@@ -78,7 +78,7 @@ export const NavBarComponent = () => {
                 </Link>
               </li>
             </ul>
-            <ul className="d-block d-md-none d-lg-none d-xl-none navbar-nav container-nav-items mb-2 mb-lg-0">
+            <ul className="d-block d-md-block d-lg-none d-xl-none navbar-nav container-nav-items mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link active" to="/">
                   <svg

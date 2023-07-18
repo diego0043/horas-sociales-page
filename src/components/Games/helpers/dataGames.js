@@ -2,6 +2,7 @@ import img1 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & C
 import img2 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (2).svg";
 import img3 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (3).svg";
 import img4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (2).png";
+import img5 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (5).svg"
 
 import imgU1_1 from "../../../assets/SVG2/drawkit-grape-pack-illustration-1.svg";
 import imgU1_2 from "../../../assets/SVG2/drawkit-grape-pack-illustration-8.svg";
@@ -28,6 +29,11 @@ import imgU4_2 from "../../../assets/SVG4/DrawKit Vector Illustration Mental Hea
 import imgU4_3 from "../../../assets/SVG4/DrawKit Vector Illustration Mental Health & Psychology (8).svg";
 import imgU4_4 from "../../../assets/SVG4/DrawKit Vector Illustration Mental Health & Psychology (9).svg";
 import imgU4_5 from "../../../assets/SVG4/DrawKit Vector Illustration Mental Health & Psychology (10).svg";
+
+import imgU5_1 from "../../../assets/SVG5/family1.svg";
+import imgU5_2 from "../../../assets/SVG5/family5.svg";
+import imgU5_3 from "../../../assets/SVG5/family6.svg";
+import imgU5_4 from "../../../assets/SVG5/family8.svg";
 
 export const dataGames = [
   {
@@ -226,5 +232,42 @@ export const dataGames = [
       },
     ],
     image: img4,
-  },
+  },{
+    id: 5,
+    title: "UNIDAD 5 DRAMATIZAMOS HISTORIAS",
+    description:
+      "Como actores, ¡dramatizamos historias! ¡Descubre mundos llenos de aventuras a través de la lectura!",
+    games: [
+      {
+        id_game: 35,
+        title: "Elementos de los textos dramáticos",
+        description: "Los elementos de los textos dramáticos",
+        image: imgU5_1,
+        link: "https://wordwall.net/resource/58612258",
+      },
+      {
+        id_game: 36,
+        title: "Estructura del texto dramático ",
+        description: "como se estructura un texto dramático",
+        image: imgU5_2,
+        link: "https://wordwall.net/resource/58612567",
+      },
+      {
+        id_game: 37,
+        title: "Concordancia entre sustantivo y adjetivo",
+        description: "Lo que debes saber sobre la concordancia",
+        image: imgU5_3,
+        link: "https://wordwall.net/resource/58612859",
+      },
+      {
+        id_game: 38,
+        title: "Los dialogos en los textos dramáticos",
+        description:
+          "Descubre como se utilizan los textos dramáticos",
+        image: imgU5_4,
+        link: "https://wordwall.net/es/resource/6788540/guion-teatral",
+      },
+    ],
+    image: img5,
+  }
 ];

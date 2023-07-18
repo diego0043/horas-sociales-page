@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins:wght@100;500&display=swap');
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
   .container-animation-game {
     width: 95%;
     display: block;
@@ -52,7 +52,7 @@
     font-size: 1rem;
     font-weight: 300;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 1px;
     color: gray;
     font-family: 'Caprasimo', cursive !important;
 
@@ -199,7 +199,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 820px) {
   .container-animation-game {
     width: 80%;
     display: block;
