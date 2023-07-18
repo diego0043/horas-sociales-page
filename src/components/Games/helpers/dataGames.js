@@ -32,7 +32,7 @@ import imgU4_5 from "../../../assets/SVG4/DrawKit Vector Illustration Mental Hea
 export const dataGames = [
   {
     id: 1,
-    title: "INVESTIGAMOS NOTICIAS",
+    title: "UNIDAD 1 INVESTIGAMOS NOTICIAS",
     description:
       "Explora el mundo a través de las noticias: ¡Descubre, aprende y diviértete investigando!",
     games: [
@@ -90,7 +90,7 @@ export const dataGames = [
   },
   {
     id: 2,
-    title: "LEEMOS LAS NARRACIONES",
+    title: "UNIDAD 2 LEEMOS LAS NARRACIONES",
     description:
       "Sumérgete en narraciones fascinantes: ¡Descubre mundos llenos de aventuras a través de la lectura!",
     games: [
@@ -143,7 +143,7 @@ export const dataGames = [
   },
   {
     id: 3,
-    title: "INVESTIGAMOS ACRÓSTICOS",
+    title: "UNIDAD 3 INVESTIGAMOS ACRÓSTICOS",
     description:
       "Descubre la magia de los acrósticos: ¡Jugando con las letras mientras investigamos!",
     games: [
@@ -191,7 +191,7 @@ export const dataGames = [
   },
   {
     id: 4,
-    title: "CONOZCAMOS LOS MITOS",
+    title: "UNIDAD 4 CONOZCAMOS LOS MITOS",
     description:
       "Adéntrate en el fascinante mundo de los mitos: ¡Descubre leyendas y seres míticos mientras exploramos juntos!",
     games: [
