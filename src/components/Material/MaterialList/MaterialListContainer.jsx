@@ -32,7 +32,7 @@ export const MaterialListContainer = () => {
             image={image}
           />
         </div>
-        <div className="row container-fluid mt-5 mb-5 row-table shadow">
+        <div className="d-none d-md-none d-lg-flex d-xl-flex row container-fluid mt-5 mb-5 row-table shadow">
           <div className="col-7">
             <span className="">Nombre del archivo</span>
           </div>
@@ -45,7 +45,9 @@ export const MaterialListContainer = () => {
         </div>
         <div className="row">
           {unidad.map((unit) => {
-             return <MateriaListCard key={unit.id} name={titleMaterial} {...unit} />; 
+            return (
+              <MateriaListCard key={unit.id} name={titleMaterial} {...unit} />
+            );
           })}
         </div>
       </div>

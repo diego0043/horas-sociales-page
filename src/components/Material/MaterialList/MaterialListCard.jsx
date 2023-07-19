@@ -2,12 +2,12 @@
 export const MateriaListCard = ({ week, fileType, options, doc, name }) => {
   return (
     <>
-      <div className="container container-change-widh">
+      <div className="container">
         <div className="container-card-material container row shadow-sm">
-          <div className="col-7">
+          <div className="col-12 col-md-12 col-lg-7 col-xl-7">
             <div className="row">
               {options[0] ? (
-                <div className="col-1 icon-black">
+                <div className="d-none d-md-none d-lg-flex d-xl-flex col-1 icon-black">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
@@ -23,7 +23,7 @@ export const MateriaListCard = ({ week, fileType, options, doc, name }) => {
                   </svg>
                 </div>
               ) : (
-                <div className="col-1 icon-red">
+                <div className="d-none d-md-none d-lg-flex d-xl-flex col-1 icon-red">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
@@ -39,15 +39,21 @@ export const MateriaListCard = ({ week, fileType, options, doc, name }) => {
                 </div>
               )}
 
-              <div className="col-10 text-file">
+              <div className="col-12 col-md-12 col-lg-10 col-xl-10 text-file">
                 <span className="">
-                  {name}
-                  {week}{" "}
+                  {name }
+                  <span className="d-none d-md-none d-lg-inline d-xl-inline">
+                  {" - "}
+                  </span>
+                  <span className="d-inline d-md-inline d-lg-none d-xl-none">
+                  {" "}
+                  </span>
+                  {week}
                 </span>
               </div>
             </div>
           </div>
-          <div className="col-2 text-center">
+          <div className="d-none d-md-none d-lg-block d-xl-block col-2 text-center">
             <span className="">{fileType}</span>
           </div>
           <div className="col-3 container-icons">
@@ -65,11 +71,11 @@ export const MateriaListCard = ({ week, fileType, options, doc, name }) => {
                 </svg>
               </a>
             ) : (
-              <a className="icon-options">
+              <a href={doc} target="_blank" className="icon-options" rel="noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="23"
-                  height="23"
+                  width="25"
+                  height="25"
                   fill="currentColor"
                   viewBox="0 0 16 16"
                 >
