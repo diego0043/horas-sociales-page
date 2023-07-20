@@ -1,18 +1,49 @@
 @media screen and (max-width: 820px) {
-  .container-card-material{
+  .container-card-material {
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     border-radius: 10px;
+    height: 110px;
   }
 
   .text-file {
     display: flex;
     align-items: center;
+    justify-content: center;
     color: gray;
-    font-weight: 500;
+    font-weight: bold;
     text-align: center;
+  }
+
+  .container-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-options {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 40px;
+    bottom: 10px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .bg-pdf {
+    background-color: #262a35;
+  }
+  
+  .bg-video {
+    background-color: #ff4f5b;
   }
 }
 

@@ -2,7 +2,10 @@ import img1 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & C
 import img2 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (2).svg";
 import img3 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (3).svg";
 import img4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (2).png";
-import img5 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (5).svg"
+import img5 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (5).svg";
+import img6 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (8).svg";
+import img7 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (7).svg";
+import img8 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (9).svg";
 
 import imgU1_1 from "../../../assets/SVG2/drawkit-grape-pack-illustration-1.svg";
 import imgU1_2 from "../../../assets/SVG2/drawkit-grape-pack-illustration-8.svg";
@@ -34,6 +37,24 @@ import imgU5_1 from "../../../assets/SVG5/family1.svg";
 import imgU5_2 from "../../../assets/SVG5/family5.svg";
 import imgU5_3 from "../../../assets/SVG5/family6.svg";
 import imgU5_4 from "../../../assets/SVG5/family8.svg";
+
+import imgU7_1 from "../../../assets/SVG6/undraw_bibliophile_re_xarc.svg";
+import imgU7_2 from "../../../assets/SVG6/undraw_joyride_re_968t.svg";
+import imgU7_3 from "../../../assets/SVG6/undraw_reading_book_re_kqpk.svg";
+import imgU7_4 from "../../../assets/SVG6/undraw_reading_re_29f8.svg";
+import imgU7_5 from "../../../assets/SVG6/undraw_reading_time_re_phf7.svg";
+
+import imgU8_1 from "../../../assets/SVG7/undraw_add_content_re_vgqa.svg";
+import imgU8_2 from "../../../assets/SVG7/undraw_diary_re_4jpc.svg";
+import imgU8_3 from "../../../assets/SVG7/undraw_font_re_efri.svg";
+import imgU8_4 from "../../../assets/SVG7/undraw_thought_process_re_om58.svg";
+import imgU8_5 from "../../../assets/SVG7/undraw_to_do_list_re_9nt7.svg";
+import imgU8_6 from "../../../assets/SVG7/undraw_typewriter_re_u9i2.svg";
+import imgU8_7 from "../../../assets/SVG7/undraw_wall_post_re_y78d.svg";
+
+
+
+
 
 export const dataGames = [
   {
@@ -225,14 +246,14 @@ export const dataGames = [
       {
         id_game: 34,
         title: "Oraciones interrogativas y exclamativas",
-        description:
-          "¡Preguntas y exclamaciones para expresar emociones!",
+        description: "¡Preguntas y exclamaciones para expresar emociones!",
         image: imgU3_4,
         link: "https://wordwall.net/resource/58569460",
       },
     ],
     image: img4,
-  },{
+  },
+  {
     id: 5,
     title: "UNIDAD 5 DRAMATIZAMOS HISTORIAS",
     description:
@@ -262,12 +283,129 @@ export const dataGames = [
       {
         id_game: 38,
         title: "Los dialogos en los textos dramáticos",
-        description:
-          "Descubre como se utilizan los textos dramáticos",
+        description: "Descubre como se utilizan los textos dramáticos",
         image: imgU5_4,
         link: "https://wordwall.net/es/resource/6788540/guion-teatral",
       },
     ],
     image: img5,
-  }
+  },
+  {
+    id: 6,
+    title: "UNIDAD 6 CONTAMOS LEYENDAS",
+    description:
+      "Como se cuentan las leyendas: ¡Descubre mundos llenos de aventuras a través de la lectura!",
+    games: [
+      {
+        id_game: 35,
+        title: "Elementos de los textos dramáticos",
+        description: "Los elementos de los textos dramáticos",
+        image: imgU5_1,
+        link: "https://wordwall.net/resource/58612258",
+      },
+    ],
+    image: img8,
+  },
+  {
+    id: 7,
+    title: "UNIDAD 7 LEEMOS CRÓNICAS",
+    description:
+      "Adéntrate en el fascinante mundo de las crónicas: ¡Descubre leyendas y seres míticos mientras exploramos juntos!",
+    games: [
+      {
+        id_game: 39,
+        title: "La crónica periodística en la actualidad",
+        description: "Descubre las noticias más importantes de la semana",
+        image: imgU7_1,
+        link: "https://wordwall.net/resource/58653327",
+      },
+      {
+        id_game: 40,
+        title: "El esquema de llaves en las crónicas periodísticas",
+        description: "Como se estructura una crónica periodística",
+        image: imgU7_2,
+        link: "https://wordwall.net/resource/58653415",
+      },
+      {
+        id_game: 41,
+        title: "Esquema de flechas para las crónicas periodísticas",
+        description: "Toda la información que necesitas sobre las crónicas",
+        image: imgU7_3,
+        link: "https://wordwall.net/resource/58653532",
+      },
+      {
+        id_game: 42,
+        title: "El uso de comillas españolas",
+        description: "Las comillas españolas en las crónicas periodísticas",
+        image: imgU7_4,
+        link: "https://wordwall.net/resource/58653646",
+      },
+      {
+        id_game: 43,
+        title: "Uso de palabras con bu-, bur- y bus- ",
+        description: "En realidad, ¿sabes como se usan estas palabras?",
+        image: imgU7_5,
+        link: "https://wordwall.net/es/resource/58630564/palabras-con-bu-bur-bus",
+      },
+    ],
+    image: img6,
+  },
+  {
+    id: 8,
+    title: "UNIDAD 8 ESCRIBIMOS REPORTAJES ",
+    description:
+      "Trabaja en equipo para escribir reportajes: ¡Descubre, aprende y diviértete investigando!",
+    games: [
+      {
+        id_game: 44,
+        title: "Literatura salvadoreña: cuento infantil",
+        description: "La literatura salvadoreña y sus cuentos infantiles",
+        image: imgU8_1,
+        link: "https://wordwall.net/resource/58653745",
+      },
+      {
+        id_game: 45,
+        title: "Cuento infantil: estructura mas importante",
+        description: "La estructura de los cuentos infantiles",
+        image: imgU8_2,
+        link: "https://wordwall.net/es/resource/58631001/cuento-infantil-estructura ",
+      },
+      {
+        id_game: 46,
+        title: "Cualidades del buen orador",
+        description: "Tienes lo que se necesita para ser un buen orador?",
+        image: imgU8_3,
+        link: "https://wordwall.net/es/resource/58631132/cualidades-del-buen-orador",
+      },
+      {
+        id_game: 47,
+        title: "La producción de cuñas publicitarias ",
+        description: "Sabes como se producen las cuñas publicitarias?",
+        image: imgU8_4,
+        link: "https://wordwall.net/resource/58653932",
+      },
+      {
+        id_game: 48,
+        title: "El reportaje periodístico: características y tipos",
+        description: "Como detectives, descubramos los tipos de reportajes",
+        image: imgU8_5,
+        link: "https://wordwall.net/resource/58654048",
+      },
+      {
+        id_game: 49,
+        title: "Las personas gramaticales en la narración de aventuras",
+        description: "Que son las personas gramaticales exactamente?",
+        image: imgU8_6,
+        link: "https://wordwall.net/es/resource/58631751/las-personas-gramaticales",
+      },
+      {
+        id_game: 51,
+        title: "El reportaje: Estructura",
+        description: "La magia de los reportajes: ¡Descubre, aprende y diviértete investigando!",
+        image: imgU8_7,
+        link: "https://wordwall.net/es/resource/58631968/el-reportaje-estructura",
+      },
+    ],
+    image: img7,
+  },
 ];
