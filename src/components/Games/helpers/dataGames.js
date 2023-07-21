@@ -52,10 +52,6 @@ import imgU8_5 from "../../../assets/SVG7/undraw_to_do_list_re_9nt7.svg";
 import imgU8_6 from "../../../assets/SVG7/undraw_typewriter_re_u9i2.svg";
 import imgU8_7 from "../../../assets/SVG7/undraw_wall_post_re_y78d.svg";
 
-
-
-
-
 export const dataGames = [
   {
     id: 1,
@@ -401,7 +397,8 @@ export const dataGames = [
       {
         id_game: 51,
         title: "El reportaje: Estructura",
-        description: "La magia de los reportajes: ¡Descubre, aprende y diviértete investigando!",
+        description:
+          "La magia de los reportajes: ¡Descubre, aprende y diviértete investigando!",
         image: imgU8_7,
         link: "https://wordwall.net/es/resource/58631968/el-reportaje-estructura",
       },
