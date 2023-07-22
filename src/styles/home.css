@@ -50,14 +50,6 @@
     height: 100vh;
   }
 
-  .images-carousel {
-    position: relative;
-    margin-top: 20%;
-    height: 200px;
-  }
-
- 
-
   .container-text-game-home {
     display: block;
     margin-left: auto;
@@ -73,31 +65,6 @@
     margin-bottom: 2rem;
     margin-top: 0px;
     color: gray;
-  }
-
-  .title-carousel {
-    display: block;
-    position: absolute;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    left: -30px;
-    bottom: -95px;
-    color: #45414b;
-    text-align: center;
-    width: 120%;
-    height: 120px;
-    backdrop-filter: blur(10px);
-
-  }
-
-  .img-carousel {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 100%;
-    margin-top: 20px;
   }
 
   .btn-home-game{
@@ -241,12 +208,6 @@
     height: 100vh;
   }
 
-  .images-carousel {
-    position: relative;
-    height: 70vh;
-    margin-top: 10%;
-  }
-
   .text-game-home {
     display: block;
     margin-top: 30%;
@@ -269,42 +230,14 @@
     color: gray;
   }
 
-  .title-carousel {
-    position: absolute;
-    display: flex;
-    font-size: 2.5rem;
-    font-weight: 400;
-    text-align: left;
-    margin-bottom: 2rem;
-    color: #45414b;
-    text-align: center;
-    font-family: "Caprasimo", cursive !important;
-    top: -70px;
-    left: -90px;
-    backdrop-filter: blur(10px);
-    width: 140%;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .img-carousel {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 80%;
-    margin-top: 20px;
-  }
-
   .btn-home-game{
     display: block;
     width: 25%;
     height: 50px;
     border-radius: 10px;
     border: none;
-    background-color: #D7E0FF;
-    color: #3C3744;
+    background-color: #00DDB3;
+    color: white;
     font-weight: bold;
     cursor: pointer;
     border: 1px solid #D7E0FF;
@@ -320,7 +253,7 @@
 
   .text-red-home{
     font-style: oblique;
-    color: #D7E0FF;
+    color: #00DDB3;
   }
 
   .animation-material {
@@ -366,5 +299,9 @@
     text-align: center;
     margin-bottom: 2rem;
     color: gray;
+  }
+
+  .container-animation-gamesH{
+    margin-top: 100px;
   }
 }
