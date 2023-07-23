@@ -19,7 +19,7 @@ export const CardGame = ({ id, title, description, games, image }) => {
 
   return (
     <>
-      <div className="container-card shadow-sm animate__animated animate__slideInRight">
+      <div className="container-card shadow-sm">
         <div className="row container">
           <div className="col-7">
             <div className="row">
