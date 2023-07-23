@@ -5,7 +5,7 @@ import img4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Ill
 import img5 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (5).svg";
 import img6 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (8).svg";
 import img7 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (7).svg";
-import img8 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (9).svg";
+import img8 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (7).png";
 
 import imgU1_1 from "../../../assets/SVG2/drawkit-grape-pack-illustration-1.svg";
 import imgU1_2 from "../../../assets/SVG2/drawkit-grape-pack-illustration-8.svg";
@@ -51,6 +51,18 @@ import imgU8_4 from "../../../assets/SVG7/undraw_thought_process_re_om58.svg";
 import imgU8_5 from "../../../assets/SVG7/undraw_to_do_list_re_9nt7.svg";
 import imgU8_6 from "../../../assets/SVG7/undraw_typewriter_re_u9i2.svg";
 import imgU8_7 from "../../../assets/SVG7/undraw_wall_post_re_y78d.svg";
+
+/* import imgU3_1 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (11).png";
+import imgU3_2 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (3).png";
+import imgU3_3 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (9).png";
+import imgU3_4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (6).png";  y 2*/
+
+import imgU6_1 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (1).png";
+import imgU6_2 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (10).png";
+import imgU6_3 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (6).png";
+import imgU6_4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (4).png";
+import imgU6_5 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (5).png";
+
 
 export const dataGames = [
   {
@@ -293,11 +305,39 @@ export const dataGames = [
       "Como se cuentan las leyendas: ¡Descubre mundos llenos de aventuras a través de la lectura!",
     games: [
       {
-        id_game: 35,
-        title: "Elementos de los textos dramáticos",
-        description: "Los elementos de los textos dramáticos",
-        image: imgU5_1,
-        link: "https://wordwall.net/resource/58612258",
+        id_game: 52,
+        title: "La leyenda: Estructura y características",
+        description: "Como se estructura una leyenda",
+        image: imgU6_1,
+        link: "https://wordwall.net/resource/58655934",
+      },
+      {
+        id_game: 53,
+        title: "La cohesión textual: Marcadores discursivos",
+        description: "Descubre como se conectan las ideas en un texto",
+        image: imgU6_2,
+        link: "https://wordwall.net/es/resource/58656076",
+      },
+      {
+        id_game: 54,
+        title: "La leyenda: personajes y escenarios",
+        description: "Adéntrate en el mundo de los personajes de leyenda",
+        image: imgU6_3,
+        link: "https://wordwall.net/es/resource/58656257",
+      },
+      {
+        id_game: 55,
+        title: "El guión corto para la dramatización de una",
+        description: "Adéntrate en el mundo de los personajes de leyenda",
+        image: imgU6_4,
+        link: "https://wordwall.net/es/resource/58656487",
+      },
+      {
+        id_game: 56,
+        title: "Descubre Los determinantes demostrativos",
+        description: "Adéntrate en el mundo de los personajes de leyenda",
+        image: imgU6_5,
+        link: "https://wordwall.net/es/resource/58656640",
       },
     ],
     image: img8,
