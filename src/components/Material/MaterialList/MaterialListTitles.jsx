@@ -3,7 +3,7 @@
 export const MaterialListTitles = ({ title, description, id, image }) => {
   return (
     <>
-      <div className="row">
+      <div className="row animate__animated animate__zoomIn">
         <div className="col-12 col-md-12 col-lg-7 col-xl-7">
           <div className="title-game-list">{title}</div>
           <div className="subtitle-game-list">{description}</div>

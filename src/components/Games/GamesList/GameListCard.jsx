@@ -5,10 +5,10 @@ export const GameListCard = ({ title, description, image, link }) => {
   return (
     <>
       <div className="container-card-list container row shadow">
-        <div className="col-6">
+        <div className="col-5 col-md-5 col-lg-6 col-xl-6">
           <img className="img-container" src={image} alt={title} />
         </div>
-        <div className="col-6">
+        <div className="col-7 col-md-7 col-lg-6 col-xl-6">
           <span className="title-goGame">{title}</span>
           <p className="description-goGame">{description}</p>
           <a

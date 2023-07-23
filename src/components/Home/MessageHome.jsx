@@ -5,7 +5,7 @@ export const MessageHome = () => {
   }
   return (
     <>
-        <h1 className="title-home">¡Bienvenido a una experiencia educativa única: tu aula virtual!</h1>
+        <h1 className="title-home">¡Bienvenido a una <span className="text-resalt-home flash-animation">experiencia</span> educativa única: tu aula <span className="text-resalt-home">virtual!</span></h1>
         <h2 className="subtitle-home">Explora un mundo de aprendizaje digital diseñado para estudiantes de cuarto grado</h2>
         <button onClick={scrollDown} className="btn btn-danger btn-lg btn-block btn-home">Comenzar</button>
     </>

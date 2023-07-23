@@ -6,6 +6,7 @@ import "../src/styles/navbar.css";
 import "../src/styles/home.css";
 import "../src/styles/game.css";
 import "../src/styles/material.css";
+import 'animate.css';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

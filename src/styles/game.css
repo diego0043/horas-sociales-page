@@ -140,15 +140,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
-    width: 70%;
-    height: 70%;
-    object-fit: cover;
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
   }
 
   .btn-goGame{
     display: block;
-    width: 70%;
+    width: 80%;
     height: 40px;
     border-radius: 10px;
     border: none;
@@ -219,6 +219,7 @@
   .container-games-list {
     height: 80vh;
     overflow-y: scroll;
+    overflow-x: hidden;
     padding: 10px;
     scroll-behavior: smooth;
   }
