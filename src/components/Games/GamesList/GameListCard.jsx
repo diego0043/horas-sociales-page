@@ -2,6 +2,9 @@
 /* eslint-disable no-unused-vars */
 // eslint-disable-next-line react/prop-types
 export const GameListCard = ({ title, description, image, link }) => {
+
+  //cambiar clase de imagen css cuando sea unidad 4 y 6 
+  
   return (
     <>
       <div className="container-card-list container row shadow">

@@ -1,11 +1,11 @@
 import img1 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (1).svg";
 import img2 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (2).svg";
 import img3 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (3).svg";
-import img4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (2).png";
+import img4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (2).svg";
 import img5 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (5).svg";
 import img6 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (8).svg";
 import img7 from "../../../assets/SVG/DrawKit Vector Illustration Influencer & Content Creator Illustrations (7).svg";
-import img8 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (7).png";
+import img8 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (7).svg";
 
 import imgU1_1 from "../../../assets/SVG2/drawkit-grape-pack-illustration-1.svg";
 import imgU1_2 from "../../../assets/SVG2/drawkit-grape-pack-illustration-8.svg";
@@ -22,10 +22,10 @@ import imgU2_4 from "../../../assets/SVG3/wfh_5.svg";
 import imgU2_5 from "../../../assets/SVG3/wfh_7.svg";
 import imgU2_6 from "../../../assets/SVG3/wfh_9.svg";
 
-import imgU3_1 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (11).png";
-import imgU3_2 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (3).png";
-import imgU3_3 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (9).png";
-import imgU3_4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (6).png";
+import imgU3_1 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (11).svg";
+import imgU3_2 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (3).svg";
+import imgU3_3 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (9).svg";
+import imgU3_4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (6).svg";
 
 import imgU4_1 from "../../../assets/SVG4/DrawKit Vector Illustration Mental Health & Psychology (6).svg";
 import imgU4_2 from "../../../assets/SVG4/DrawKit Vector Illustration Mental Health & Psychology (7).svg";
@@ -52,16 +52,11 @@ import imgU8_5 from "../../../assets/SVG7/undraw_to_do_list_re_9nt7.svg";
 import imgU8_6 from "../../../assets/SVG7/undraw_typewriter_re_u9i2.svg";
 import imgU8_7 from "../../../assets/SVG7/undraw_wall_post_re_y78d.svg";
 
-/* import imgU3_1 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (11).png";
-import imgU3_2 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (3).png";
-import imgU3_3 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (9).png";
-import imgU3_4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (6).png";  y 2*/
-
-import imgU6_1 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (1).png";
-import imgU6_2 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (10).png";
-import imgU6_3 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (6).png";
-import imgU6_4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (4).png";
-import imgU6_5 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (5).png";
+import imgU6_1 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (1).svg";
+import imgU6_2 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (10).svg";
+import imgU6_3 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (6).svg";
+import imgU6_4 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (4).svg";
+import imgU6_5 from "../../../assets/PNG/DrawKit Vector Illustrations Halloween Illustrations (5).svg";
 
 
 export const dataGames = [
