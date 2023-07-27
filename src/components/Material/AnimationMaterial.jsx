@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import lottie from "lottie-web";
-import animationData from "../../assets/animations/Animation - 1689394731754.json";
+import animationData from "../../assets/animations/animation_lkkhuca6.json";
 export const AnimationMaterial = () => {
   const animationContainer = useRef(null);
 
