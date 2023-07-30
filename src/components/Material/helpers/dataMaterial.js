@@ -25,6 +25,21 @@ import uni5_semana2 from "../docs/unidad 5/Libro de texto 4.° grado-121-126.pdf
 import uni5_semana3 from "../docs/unidad 5/Libro de texto 4.° grado-127-130.pdf";
 import uni5_semana4 from "../docs/unidad 5/Libro de texto 4.° grado-131-137.pdf";
 
+import uni6_semana1 from "../docs/unidad 6/Libro de texto 4.° grado-138-146.pdf";
+import uni6_semana2 from "../docs/unidad 6/Libro de texto 4.° grado-147-153.pdf";
+import uni6_semana3 from "../docs/unidad 6/Libro de texto 4.° grado-154-160.pdf";
+import uni6_semana4 from "../docs/unidad 6/Libro de texto 4.° grado-161-167.pdf";
+
+import uni7_semana1 from "../docs/unidad 7/Libro de texto 4.° grado-168-175.pdf";
+import uni7_semana2 from "../docs/unidad 7/Libro de texto 4.° grado-176-185.pdf";
+import uni7_semana3 from "../docs/unidad 7/Libro de texto 4.° grado-186-190.pdf";
+import uni7_semana4 from "../docs/unidad 7/Libro de texto 4.° grado-191-195.pdf";
+
+import uni8_semana1 from "../docs/unidad 8/Libro de texto 4.° grado-196-207.pdf";
+import uni8_semana2 from "../docs/unidad 8/Libro de texto 4.° grado-208-215.pdf";
+import uni8_semana3 from "../docs/unidad 8/Libro de texto 4.° grado-216-220.pdf";
+import uni8_semana4 from "../docs/unidad 8/Libro de texto 4.° grado-221-225.pdf";
+
 export const dataMaterial = [
   {
     id: 1,
@@ -245,4 +260,106 @@ export const dataMaterial = [
       },
     ],
   },
+  {
+    id: 6,
+    name: "Unidad 6 contamos leyendas",
+    docs: [
+      {
+        id: "un6_we1",
+        week: "semana 1",
+        fileType: "PDF",
+        options: [true, true],
+        doc: uni6_semana1,
+      },
+      {
+        id: "un6_we2",
+        week: "semana 2",
+        fileType: "PDF",
+        options: [true, true],
+        doc: uni6_semana2,
+      },
+      {
+        id: "un6_we3",
+        week: "semana 3",
+        fileType: "PDF",
+        options: [true, true],
+        doc: uni6_semana3,
+      },
+      {
+        id: "un6_we4",
+        week: "semana 4",
+        fileType: "PDF",
+        options: [true, true],
+        doc: uni6_semana4,
+      },
+    ],
+  },
+  {
+    id: 7,
+    name: "Unidad 5 leemos cronicas",
+    docs: [
+      {
+        id: "un7_we1",
+        week: "semana 1",
+        fileType: "PDF",
+        options: [true, true],
+        doc: uni7_semana1,
+      },
+      {
+        id: "un7_we2",
+        week: "semana 2",
+        fileType: "PDF",
+        options: [true, true],
+        doc: uni7_semana2,
+      },
+      {
+        id: "un7_we3",
+        week: "semana 3",
+        fileType: "PDF",
+        options: [true, true],
+        doc: uni7_semana3,
+      },
+      {
+        id: "un7_we4",
+        week: "semana 4",
+        fileType: "PDF",
+        options: [true, true],
+        doc: uni7_semana4,
+      },
+    ],
+  },
+  {
+    id: 8,
+    name: "Unidad 5 escribimos reportajes",
+    docs: [
+      {
+        id: "un8_we1",
+        week: "semana 1",
+        fileType: "PDF",
+        options: [true, true],
+        doc: uni8_semana1,
+      },
+      {
+        id: "un8_we2",
+        week: "semana 2",
+        fileType: "PDF",
+        options: [true, true],
+        doc: uni8_semana2,
+      },
+      {
+        id: "un8_we3",
+        week: "semana 3",
+        fileType: "PDF",
+        options: [true, true],
+        doc: uni8_semana3,
+      },
+      {
+        id: "un8_we4",
+        week: "semana 4",
+        fileType: "PDF",
+        options: [true, true],
+        doc: uni8_semana4,
+      },
+    ],
+  }
 ];
